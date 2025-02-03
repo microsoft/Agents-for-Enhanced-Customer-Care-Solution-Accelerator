@@ -1,0 +1,23 @@
+{
+  type: "AdaptiveCard",
+  '$schema': "http://adaptivecards.io/schemas/adaptive-card.json",
+  version: "1.5",
+  body: [
+    {
+      type: "TextBlock",
+      text: "Customer Location",
+      wrap: true,
+      size: "Large"
+    },
+    {
+      type: "TextBlock",
+      text: Topic.CustomerAddress,
+      wrap: true,
+      isSubtle: true
+    },
+    {
+      type: "Image",
+      url: "https://atlas.microsoft.com/map/static?subscription-key=" & Text(Env.cto_AzureMapsKey) & "&zoom=14&tilesetId=microsoft.base.road&api-version=2024-04-01&language=en-us&center=" & Text(Topic.CustomerLongitude) & "," & Text(Topic.CustomerLatitude) & "&pins=default%7Cla15+50%7Cls12%7Clc003b61%7C%7C%27Customer%20Location%27" & Text(Topic.CustomerLongitude) & "%20" & Text(Topic.CustomerLatitude) & "&height=200&width=350"
+    }
+  ]
+}

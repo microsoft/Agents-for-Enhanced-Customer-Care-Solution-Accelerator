@@ -1,0 +1,23 @@
+{
+  type: "AdaptiveCard",
+  '$schema': "http://adaptivecards.io/schemas/adaptive-card.json",
+  version: "1.5",
+  body: [
+    {
+      type: "TextBlock",
+      text: "Primary Nearby Cell Tower",
+      wrap: true,
+      size: "Large"
+    },
+    {
+      type: "TextBlock",
+      text: Text(Topic.Output.celltowerid),
+      wrap: true,
+      isSubtle: true
+    },
+    {
+      type: "Image",
+      url: "https://atlas.microsoft.com/map/static?subscription-key=" & Text(Env.cto_AzureMapsKey) & "&zoom=14&tilesetId=microsoft.base.road&api-version=2024-04-01&language=en-us&center=" & Text(Topic.Output.celltowerlong) & "," & Text(Topic.Output.celltowerlat) & "&pins=default%7Cla15+50%7Cls12%7Clc003b61%7C%7C%27Customer%20Location%27" & Text(Topic.Input.number_1) & "%20" & Text(Topic.Input.number) & "|%27" & Text(Topic.Output.celltowerid) & "%27" & Text(Topic.Output.celltowerlong) & "%20" & Text(Topic.Output.celltowerlat) & "&height=300&width=350&path=ra450||" & Text(Topic.Output.celltowerlong) & "%20" & Text(Topic.Output.celltowerlat) & ""
+    }
+  ]
+}

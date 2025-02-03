@@ -1,0 +1,41 @@
+{
+  type: "AdaptiveCard",
+  '$schema': "http://adaptivecards.io/schemas/adaptive-card.json",
+  version: "1.5",
+  body: [
+    {
+      type: "ColumnSet",
+      columns: [
+        {
+          type: "Column",
+          width: "stretch",
+          items: [
+            {
+              type: "TextBlock",
+              text: "Device Identified",
+              wrap: true,
+              size: "Large"
+            },
+            {
+              type: "TextBlock",
+              text: First(Topic.Devices.devices).DeviceName,
+              wrap: true,
+              isSubtle: true,
+              size: "Default"
+            }
+          ]
+        },
+        {
+          type: "Column",
+          width: "60px",
+          items: [
+            {
+              type: "Image",
+              url: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABLCAMAAADgUuHmAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAE4UExURf////L2+E10jSZbfXqWqPX4+k91jhBcjZuwviJZfGGDmSRafWSFmxtchWGHn32IkBhbhh9XfN/p7yJfhmaHnGOEmlV+mHCPohtchsbU3TVkgrrK1DJigbbG0cjW3mKEmS1ffzhlg36Zq7zM1rjL1mKIoKe8yi9ggLPG0y5ff2eLo6e6x7bJ1aS4xR1chaq/zKi9y7PH0ypdfl+BlyVghkx3lLPF0KvAzbLF0kx0jZmvvSxffyZghtHf56/D0CNZfFqCm+zy9hVbibDE0TZlgsfW4I2ouoCbrWiIncPR23+aqxNbisrY4am8yNvm7T5ujoagsIihsaW7yRxchvP3+W+RpnCSpx5dhTttja2/y4Oer6u9yXWSpX+brMrX4CBYfLG5vmCCmFV+mTlri6O3xBdbhoKfsuTo6/L3TPMAAAAJcEhZcwAAGdQAABnUAWcvCWQAAAAYdEVYdFNvZnR3YXJlAFBhaW50Lk5FVCA1LjEuMvu8A7YAAAC2ZVhJZklJKgAIAAAABQAaAQUAAQAAAEoAAAAbAQUAAQAAAFIAAAAoAQMAAQAAAAIAAAAxAQIAEAAAAFoAAABphwQAAQAAAGoAAAAAAAAAIpACAOgDAAAikAIA6AMAAFBhaW50Lk5FVCA1LjEuMgADAACQBwAEAAAAMDIzMAGgAwABAAAAAQAAAAWgBAABAAAAlAAAAAAAAAACAAEAAgAEAAAAUjk4AAIABwAEAAAAMDEwMAAAAAADSZjoA4qJjAAAAfRJREFUWEftl3tTEzEQwAPtutj6qEer1lpRQXlUEV/1LdS3+AIUBEEUFPj+34DJJunl0rtrLp0bZpj8/uhtdje/m8tlmpYxz5EzNFwogpl04wQijphJN04iYslMulFGxFNm0g2vsser7PEqe7zKHq+yx6vsOe4qOI2IZwb7VXS2TFSQUxGDLGh3P0cOd4JQxddoEPJTjVZrLpyPUV0Ih1mAi70q1/1UyF0F9UsNtUegfrkZv1vhytjV8rXrgagmqMYRcULO1+MIcEO+t5tUTVBN8o4pMX+axzEumOnugXE+TlC1qOMWzb+txTr1rglneTFBBXfC+TBH8V3lGhq+R/9/7vPsg4dUbCerGDyilsfkErFyPUHEp4yxZ4j4HOAFr/G9mKRS819qLvmM84hYlb0LwDqvELGWplLP+JpcIhZrX5Tr/Ian3nbe8cv7VJVaI/GMmgtGPnzk10VKfaLPz+kq5WpRLFxfwlb2lTLEt5Q3KBCuJS1eDlsZrCjT9x98nKqi+avyxfF4LbK5oPGTTOsim65isPGrOxs2w1il2lul39sy20eVhXxVjudf3Leoy/mnzk5TNQD5qP6YtYxoqr87dKbtqlKfM9Hs2+l9Y/BPtvw3K1Fs+pqiY6/3LlEs+mCfOg7MvIlNHwRBIM+3VGz7PLlzCHdeS0DSi6exAAAAAElFTkSuQmCC"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

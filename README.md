@@ -3,7 +3,9 @@
 MENU: [**USER STORY**](#user-story) \| [**QUICK DEPLOY**](#quick-deploy) \| [**SUPPORTING DOCUMENTS**](#supporting-documents)
 
 
-<img src="Deployment/Images/userStory.png" width="50" align="left">
+<p align="left">
+  <img src="Deployment/Images/userStory.png" alt="User Story" width="50">
+</p>
 
 ## User Story
 
@@ -51,7 +53,9 @@ Once the customer confirms interest and agrees to speak with a representative, t
 The call is wrapped up with an intelligently-drafted email sent to the customer that summarizes the interaction between the customer, AI agent and representative.
 
 
-<img src="Deployment/Images/quickDeploy.png" width="50" align="left">
+<p align="left">
+  <img src="Deployment/Images/quickDeploy.png" alt="Quick Deploy" width="50">
+</p>
 
 ## Quick Deploy
 
@@ -65,7 +69,9 @@ Please click this [**Link to Deployment Guide**](Deployment/README.md) for instr
 ![Architecture](./Deployment/Images/architecture.png)
 
 
-<img src="Deployment/Images/supportingDocuments.png" width="50" align="left">
+<p align="left">
+  <img src="Deployment/Images/supportingDocuments.png" alt="Supporting Documents" width="50">
+</p>
 
 ## Supporting Documents
 

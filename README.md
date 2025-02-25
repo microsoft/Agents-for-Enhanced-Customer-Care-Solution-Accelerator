@@ -12,7 +12,7 @@ Customers of the organization are able to speak with an AI-powered agent on the 
 
 **NOTE:** This accelerator is not intended to be a production ready solution. The components can be extended through customization & configuration as desired to create a production ready solution. All components packaged have been done through a unmanaged solution which allows users to be able to customize & extend the components post deployment.
 
-### Key Features
+### Key features
 
 This accelerator focuses on harnessing the following key capabilities:
 
@@ -38,7 +38,7 @@ Below is an image of the solution accelerator.
 
 ### Scenario
 
-A customer calls the customer support number of their telecommunications service provider to try to resolve an ongoing 5G home internet connectivity issue, and receives a personalized greeting by an AI agent. The customer describes the home internet connectivity issue,and the agent is able to intelligently understand the customer's intent. The AI agent intelligently and dynamically creates an action plan to investigate and resolve the issue. A series of actions are intelligently assembled, to determine if there is a network issue at the customer's network node. Upon identifying that the network is operating as expected, the agent assembles and walks through a set of troubleshooting steps to help identify and resolve the problem on the customer's end. Upon resolution, the AI agent identifies an upsell opportunity that will prevent the issue from impacting the customer in the future, and asks the customer if they would be interested.
+A customer calls the customer support number of their telecommunications service provider to try to resolve an ongoing 5G home internet connectivity issue, and receives a personalized greeting by an AI agent. The customer describes the home internet connectivity issue, and the agent is able to intelligently understand the customer's intent. The AI agent intelligently and dynamically creates an action plan to investigate and resolve the issue. A series of actions are intelligently assembled, to determine if there is a network issue at the customer's network node. Upon identifying that the network is operating as expected, the agent assembles and walks through a set of troubleshooting steps to help identify and resolve the problem on the customer's end. Upon resolution, the AI agent identifies an upsell opportunity that will prevent the issue from impacting the customer in the future, and asks the customer if they would be interested.
 
 Once the customer confirms interest and agrees to speak with a representative, the AI agent transfers the conversation to a contact center employee who receives a Copilot-provided summary of the conversation between the customer & the AI agent, empowering him to best assist the customer. From there, the representative is empowered with organization-specific insights from Copilot, enabling him to use natural language to retrieve data usage history, provision products and services, and take other actions in industry-specific line-of-business applications.
 
@@ -46,9 +46,9 @@ The call is wrapped up with an intelligently-drafted email sent to the customer 
 
 ## Deploy
 
-Please click this [**Link to Deployment Guide**](Deployment\README.md) for instructions on how to deploy and set up the solution accelerator.
+Please click this [**Link to Deployment Guide**](Deployment/README.md) for instructions on how to deploy and set up the solution accelerator.
 
-[**Usage Guidance**](Deployment\Data\USAGE_GUIDANCE.md) has been provided to assist you in executing the steps required to see the included capabilities of this accelerator in action.
+[**Usage Guidance**](Deployment/Data/USAGE_GUIDANCE.md) has been provided to assist you in executing the steps required to see the included capabilities of this accelerator in action.
 
 ### Solution Accelerator Architecture
 

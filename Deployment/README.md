@@ -70,24 +70,26 @@ This document will comprise of step by step instructions on how to deploy this s
 4. Update the **Mobile Phone field to the phone number you plan to use to make the phone call as a customer** when demoing this solution in the format +14251234567.
 5. You will see a list of all Contacts with one of them being "Nicole Swanson" imported from Step 1.3. Copy the GUID value for the contact.
 6. ![Key Features](./Images/contactguid.png)
-7. From here go to Solutions> Open the Agents for Enhanced Customer Care solution
+7. From here go to Solutions> Open the Agents for Enhanced Customer Care solution.
 8. Click on **Environment Variables** and select HeroCustomerID.
 9. Enter the GUID value from step 1.4.4 and click **'Save'** as shown below.
 10. ![Key Features](./Images/herocustomerid.png)
 
 ## Step 1.6 Host Sample Response Data and Update Custom Connector
+
 The Custom Connector leveraged by the connector plugin can be demonstrated with a simulated API response. Follow these instructions to configure the simulated response, or create your own custom connector as needed.
 
 1. Host the sample data found in the [customconnector_sampleresponse.json](./Data/customconnector_sampleresponse.json) file in a location of your choosing. For demonstration purposes, this can be a publicly available location, such as in Azure Blob Storage, in a Power Pages page, or an alternate web server location.
- * If, for testing or demonstration purposes, you choose to host the sample response payload in a Power Pages page, you will need:
-   * A publicly-accessible Power Pages portal that you are able to manage via the [Dynamics 365 Portal Management app}(https://learn.microsoft.com/en-us/power-pages/configure/portal-management-app)
- * You can create a Web Template that contains the simulated response content:
-   * ![Web Template](./Images/webtemplate.png =300x)
- * You can use that Web Template in a Page Template:
-    * ![Page Template](./Images/pagetemplate.png =300x)
- * You can use that Web Template in a Page Template:
-    * ![Web Page](./Images/webpage.png =300x)
-    * and the URL for the Web Page can be used in subsequent steps
+
+* If, for testing or demonstration purposes, you choose to host the sample response payload in a Power Pages page, you will need:
+  * A publicly-accessible Power Pages portal that you are able to manage via the [Dynamics 365 Portal Management app}(https://learn.microsoft.com/en-us/power-pages/configure/portal-management-app)
+* You can create a Web Template that contains the simulated response content:
+  * ![Web Template](./Images/webtemplate.png =300x)
+* You can use that Web Template in a Page Template:
+  * ![Page Template](./Images/pagetemplate.png =300x)
+* You can use that Web Template in a Page Template:
+  * ![Web Page](./Images/webpage.png =300x)
+  * and the URL for the Web Page can be used in subsequent steps
 
 2. Retrieve the URL where the sample response is hosted.
 3. In the Power Apps Maker portal, navigate to the **AgentsForEnhancedCustomerCare** solution, and navigate to **Custom connectors**

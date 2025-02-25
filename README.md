@@ -1,7 +1,7 @@
 # Agents for Enhanced Customer Care
-MENU: [**USER STORY**](#user-story) \| [**DEPLOY**](#deploy) \| [**SUPPORTING DOCUMENTS**](#supporting-documentation)
+MENU: [**USER STORY**](#user-story) \| [**QUICK DEPLOY**](#quick-deploy) \| [**SUPPORTING DOCUMENTS**](#supporting-documentation)
 
-<img src="Deployment/Images/user-story.png" width="50" align="left">
+<img src="Deployment/Images/userStory.png" width="50" align="left">
 
 ## User Story
 
@@ -48,7 +48,10 @@ Once the customer confirms interest and agrees to speak with a representative, t
 
 The call is wrapped up with an intelligently-drafted email sent to the customer that summarizes the interaction between the customer, AI agent and representative.
 
-## Deploy
+<img src="Deployment/Images/quickDeploy.png" width="50" align="left">
+
+## Quick Deploy
+
 
 Please click this [**Link to Deployment Guide**](Deployment/README.md) for instructions on how to deploy and set up the solution accelerator.
 

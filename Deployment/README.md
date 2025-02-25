@@ -84,11 +84,11 @@ The Custom Connector leveraged by the connector plugin can be demonstrated with 
 * If, for testing or demonstration purposes, you choose to host the sample response payload in a Power Pages page, you will need:
   * A publicly-accessible Power Pages portal that you are able to manage via the [Dynamics 365 Portal Management app}(https://learn.microsoft.com/en-us/power-pages/configure/portal-management-app)
 * You can create a Web Template that contains the simulated response content:
-  * ![Web Template](./Images/webtemplate.png =300x)
+  * ![Web Template](./Images/webtemplate.png)
 * You can use that Web Template in a Page Template:
-  * ![Page Template](./Images/pagetemplate.png =300x)
+  * ![Page Template](./Images/pagetemplate.png)
 * You can use that Web Template in a Page Template:
-  * ![Web Page](./Images/webpage.png =300x)
+  * ![Web Page](./Images/webpage.png)
   * and the URL for the Web Page can be used in subsequent steps
 
 2. Retrieve the URL where the sample response is hosted.

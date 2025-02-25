@@ -44,6 +44,7 @@ Once they have been created in the designer (or other tools), then can be presen
 The value of Adaptive Cards is enhanced when they are populated with dynamic data that is relevant to the end user or conversation. This is achieved by choosing the **Formula** option for defining the card, and authoring a formula that will return the desired JSON for your card, with variables populated.
 
 This is an example of opting to enter a Power FX formula to define an Adaptive Card to be presented as the result of an Action:
+
 ![Completed Action Plan](../Images/adaptivecardformula.png =400x)
 
 When creating your Power FX formula to produce your Adaptive Card content, you can include variable values that are available in your Action or Topic.
@@ -89,7 +90,7 @@ url: "https://atlas.microsoft.com/map/static?subscription-key=" & Text(Env.cto_A
 <a id="troubleshooting_steps"></a>
 ## Dynamically-generated Troubleshooting Steps in Copilot Studio Topics
 
-In this accelerator, once the Copilot Studio orchestration has determined that there are no network issues that would be responsible for the issue the customer is facing, the agent make use of a dynamic troubleshooting capability in the **IVR Troubleshooter** Topic.
+In this accelerator, once the Copilot Studio orchestration has determined that there are no network issues that would be responsible for the issue the customer is facing, the agent makes use of a dynamic troubleshooting capability in the **IVR Troubleshooter** Topic.
 
 Rather than hardcoding troubleshooting steps into the nodes of a Topic in Copilot Studio, we are using a generic troubleshooting topic that can retrieve and walk through a sequence of steps that are retrieved and tailored to the specific customer and issue, based on several factors:
  * The issue that the customer has stated

@@ -6,31 +6,35 @@
 
 The Agents for Enhanced Customer Care solution accelerator leverages agents in the context of customer engagement, to provide delightful customer experiences, and empower agents in the contact center, in the context of a Telecommunications organization. Agent AI capabilities are used to engage directly with customers on the voice/phone channel, as well as to provide contextual and organization-specific insights to contact center employees. This results in increased Customer Satisfaction, Cost reduction and Increased revenue for targeted business impact.
 
-The solution accelerator leverages Dynamics 365 Contact Center, Copilot Studio, Copilot in Dynamics 365 Customer Service, and Power Platform as the core components for the solution. 
+The solution accelerator leverages Dynamics 365 Contact Center, Copilot Studio, Copilot in Dynamics 365 Customer Service, and Power Platform as the core components for the solution.
 
 Customers of the organization are able to speak with an AI-powered agent on the voice channel as the first point of interaction. The AI agent understands customer intent and dynamically formulates and executes a plan of action, using Generative AI-based orchestration to assemble the appropriate knowledge, topics, and actions to drive to resolution. When necessary, troubleshooting steps can be dynamically prepared, and stepped through with the customer, personalized to the customer's technical aptitude. If needed, the AI agent seamlessly escalates the conversation to a human customer service representative, where Copilot in Dynamics 365 Customer Service is leveraged to enhance the employee's productivity by giving them intelligently-summarized information about the customer and their conversation with the AI agent, their past interaction history, and natural-language access to organization-specific data and applications. This results in higher agent productivity, and higher customer satisfaction, by reducing the time it takes to resolve the customer call, and increasing the accuracy of the service representative.
+
+**NOTE:** This accelerator is not intended to be a production ready solution. The components can be extended through customization & configuration as desired to create a production ready solution. All components packaged has been done through a unmanaged solution which allows Users to be able to customize & extend the components post deployment.
 
 ### Key Features
 
 This accelerator focuses on harnessing the following key capabilities:
- * [GenAI-based planning and orchestration](https://learn.microsoft.com/en-us/microsoft-copilot-studio/advanced-generative-actions) in Copilot Studio
- * Dynamic and contextual troubleshooting in Copilot Studio
- * Extending Copilot in Dynamics 365 Customer Service to be industry- and organization-specific through [Prompt Plugins and Connector Plugins](https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/enable-copilot-plugins-for-generative-ai)
+
+* [GenAI-based planning and orchestration](https://learn.microsoft.com/en-us/microsoft-copilot-studio/advanced-generative-actions) in Copilot Studio
+* Dynamic and contextual troubleshooting in Copilot Studio
+* Extending Copilot in Dynamics 365 Customer Service to be industry- and organization-specific through [Prompt Plugins and Connector Plugins](https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/enable-copilot-plugins-for-generative-ai)
 
 Additional details on how these capabilities are leveraged in this accelerator can be found here:
 
- * [GenAI-based Orchestration of Topics and Actions in Copilot Studio](./Deployment/Differentiators/DIFFERENTIATORS.md#genai_orchestration)
- * [Dynamically-generated Adaptive Cards in Topics and Actions](./Deployment/Differentiators/DIFFERENTIATORS.md#adaptive_cards)
- * [Dynamically-generated Azure Maps Images in Adaptive Cards](./Deployment/Differentiators/DIFFERENTIATORS.md#azure_maps)
- * [Dynamically-generated Troubleshooting Steps in Copilot Studio Topics](./Deployment/Differentiators/DIFFERENTIATORS.md#troubleshooting_steps)
- * [Prompt Plugins for Copilot in D365 Customer Service](./Deployment/Differentiators/DIFFERENTIATORS.md#prompt_plugins)
- * [Connector Plugins for Copilot in D365 Customer Service](./Deployment/Differentiators/DIFFERENTIATORS.md#connector_plugins)
+* [GenAI-based Orchestration of Topics and Actions in Copilot Studio](./Deployment/Differentiators/DIFFERENTIATORS.md#genai_orchestration)
+* [Dynamically-generated Adaptive Cards in Topics and Actions](./Deployment/Differentiators/DIFFERENTIATORS.md#adaptive_cards)
+* [Dynamically-generated Azure Maps Images in Adaptive Cards](./Deployment/Differentiators/DIFFERENTIATORS.md#azure_maps)
+* [Dynamically-generated Troubleshooting Steps in Copilot Studio Topics](./Deployment/Differentiators/DIFFERENTIATORS.md#troubleshooting_steps)
+* [Prompt Plugins for Copilot in D365 Customer Service](./Deployment/Differentiators/DIFFERENTIATORS.md#prompt_plugins)
+* [Connector Plugins for Copilot in D365 Customer Service](./Deployment/Differentiators/DIFFERENTIATORS.md#connector_plugins)
 
 ![Key Features](./Deployment/Images/keyfeatures.png)
 
 Below is an image of the solution accelerator.
 
-![solutionoverview](./Deployment/Images/solutionoverview.png)
+
+![Key Features](./Deployment/Images/solutionoverview.png)
 
 ### Scenario
 
@@ -43,6 +47,8 @@ The call is wrapped up with an intelligently-drafted email sent to the customer 
 ## Deploy
 
 Please click this [**Link to Deployment Guide**](Deployment\README.md) for instructions on how to deploy and set up the solution accelerator.
+
+[**Usage Guidance**](Deployment\Data\USAGE_GUIDANCE.md) has been provided to assist you in executing the steps required to see the included capabilities of this accelerator in action.
 
 ### Solution Accelerator Architecture
 

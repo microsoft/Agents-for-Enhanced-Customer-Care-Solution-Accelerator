@@ -1,6 +1,10 @@
 # Agents for Enhanced Customer Care
 MENU: [**USER STORY**](#user-story) \| [**DEPLOY**](#deploy) \| [**SUPPORTING DOCUMENTS**](#supporting-documentation)
+
+<img src="Deployment/Images/user-story.png" width="50" align="left">
+
 ## User Story
+
 
 ### Solution Overview
 

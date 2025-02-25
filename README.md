@@ -66,6 +66,7 @@ Please click this [**Link to Deployment Guide**](Deployment/README.md) for instr
 
 
 <img src="Deployment/Images/supportingDocuments.png" width="50" align="left">
+
 ## Supporting Documents
 
 

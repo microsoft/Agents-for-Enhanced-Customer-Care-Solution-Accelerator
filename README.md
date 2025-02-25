@@ -1,5 +1,5 @@
 # Agents for Enhanced Customer Care
-MENU: [**USER STORY**](#user-story) \| [**QUICK DEPLOY**](#quick-deploy) \| [**SUPPORTING DOCUMENTS**](#supporting-documentation)
+MENU: [**USER STORY**](#user-story) \| [**QUICK DEPLOY**](#quick-deploy) \| [**SUPPORTING DOCUMENTS**](#supporting-documents)
 
 <img src="Deployment/Images/userStory.png" width="50" align="left">
 
@@ -48,6 +48,7 @@ Once the customer confirms interest and agrees to speak with a representative, t
 
 The call is wrapped up with an intelligently-drafted email sent to the customer that summarizes the interaction between the customer, AI agent and representative.
 
+
 <img src="Deployment/Images/quickDeploy.png" width="50" align="left">
 
 ## Quick Deploy
@@ -61,7 +62,11 @@ Please click this [**Link to Deployment Guide**](Deployment/README.md) for instr
 
 ![Architecture](./Deployment/Images/architecture.png)
 
-## Supporting Documentation
+
+<img src="Deployment/Images/supportingDocuments.png" width="50" align="left">
+
+## Supporting Documents
+
 
 ### How to customize
 

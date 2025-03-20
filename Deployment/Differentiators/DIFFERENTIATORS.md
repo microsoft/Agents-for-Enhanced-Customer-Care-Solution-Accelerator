@@ -45,13 +45,13 @@ The value of Adaptive Cards is enhanced when they are populated with dynamic dat
 
 This is an example of opting to enter a Power FX formula to define an Adaptive Card to be presented as the result of an Action:
 
-![Completed Action Plan](../Images/adaptivecardformula.png =400x)
+![Completed Action Plan](../Images/adaptivecardformula.png)
 
 When creating your Power FX formula to produce your Adaptive Card content, you can include variable values that are available in your Action or Topic.
 
 For example, one of the Adaptive Cards that is presented in the accelerator (when testing the agent in Text chat mode) is this one, that displays the customer device that has been dynamically identified via a Power Automate flow:
 
-![Completed Action Plan](../Images/deviceidentified.png =300x)
+![Completed Action Plan](../Images/deviceidentified.png)
 
 In this instance, a flow named **Retrieve Customer Devices by Info Provided** returns a string of JSON data. That string is then parsed using a Parse JSON node, and turned into an object that contains an array of devices. The first device is selected, and it's name is inserted into the Adaptive Card with the Power FX formula component **First(Topic.Devices.devices).DeviceName**.
 
@@ -67,7 +67,7 @@ When working with location-centric data in your agent, it can be beneficial, inf
 
 In this accelerator, there are two Adaptive Cards that are dynamically created using Power FX formulas, with static map images also dynamically built using geospatial variable values. This Adaptive Card is used to present the location of nearest Cell Tower to the customer, along with the customer's location.
 
-![Adaptive Card with Azure Map Image](../Images/celltowerazuremap.png =400x)
+![Adaptive Card with Azure Map Image](../Images/celltowerazuremap.png)
 
 In building the URL for this map image, we are using the [Get Map Static Image rendering API](https://learn.microsoft.com/en-us/rest/api/maps/render/get-map-static-image).
 

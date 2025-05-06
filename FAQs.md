@@ -30,4 +30,4 @@ All bugs should be filed via the respective public GitHub repository's Issues ta
 
 ## Who can I contact to learn more about this Solution Accelerator? 
 
-If you have questions or want to learn more about this Solution Accelerator, please contact your Microsoft account representative. 
+If you have questions or want to learn more about this Solution Accelerator, please contact your Microsoft account representative.

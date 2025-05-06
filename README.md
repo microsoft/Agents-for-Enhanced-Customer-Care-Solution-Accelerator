@@ -110,7 +110,7 @@ To deploy this solution accelerator, ensure you have access to the following
 | [Microsoft Dynamics 365 customer service](https://www.microsoft.com/en-us/dynamics-365/topics/customer-service/customer-service-software) | This solution focuses on providing exceptional customer service experiences through a unified platform. It includes features like case management, knowledge base, and AI-driven insights to help agents resolve issues quickly and effectively. | [Pricing](https://www.microsoft.com/en-us/dynamics-365/products/customer-service/pricing) |
 | [Microsoft copilot studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/) | Microsoft Copilot Studio is a graphical, low-code tool designed for building AI-driven agents and agent flows. | [Pricing](https://learn.microsoft.com/en-us/microsoft-copilot-studio/billing-licensing) |
 | [Azure key valut](https://learn.microsoft.com/en-us/azure/key-vault/keys/quick-create-portal) | Azure Key Vault is a cloud service that provides a secure store for secrets, such as API keys, passwords, certificates, and cryptographic keys. | [Pricing](https://azure.microsoft.com/en-us/pricing/details/key-vault/) |
-| [Azure maps](https://azure.microsoft.com/en-us/products/azure-maps/) | Azure Maps is a suite of geospatial mapping services that enable developers and organizations to build intelligent location-based experiences for web and mobile applications. | [Pricing](https://azure.microsoft.com/en-us/pricing/details/azure-maps/|
+| [Azure maps](https://azure.microsoft.com/en-us/products/azure-maps/) | Azure Maps is a suite of geospatial mapping services that enable developers and organizations to build intelligent location-based experiences for web and mobile applications. | [Pricing](https://azure.microsoft.com/en-us/pricing/details/azure-maps/)|
 
 
 <br /><br />
@@ -180,8 +180,6 @@ See these resources for more details on setting up authentication:
 ### Cross references
 Check out similar solution accelerators
  
-{🟨TODO: Identify related accelerators - fill in the name and a one sentence description. The name should have non-breaking spaces in them to make sure the layout doesn't break.}
-
 | Solution Accelerator | Description |
 |---|---|
 | [Conversation knowledge mining](https://github.com/microsoft/Conversation-Knowledge-Mining-Solution-Accelerator) |This solution accelerator enables customers with large amounts of conversational data to improve decision-making by leveraging intelligence to uncover insights, relationships, and patterns from customer interactions. |

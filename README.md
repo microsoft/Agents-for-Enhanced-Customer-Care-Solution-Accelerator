@@ -85,48 +85,33 @@ Please click this [**Link to Deployment Guide**](Deployment/README.md) for instr
 
 [**Usage Guidance**](Deployment/Data/USAGE_GUIDANCE.md) has been provided to assist you in executing the steps required to see the included capabilities of this accelerator in action.
 
-> ⚠️ **Important: Check Azure OpenAI Quota Availability - do not have content**
- <br/>To ensure sufficient quota is available in your subscription, please follow [quota check instructions guide](./docs/QuotaCheck.md) before you deploy the solution.
-
 <br/>
 
-### Prerequisites and Costs - do not have content
-{🟨TODO: Update with solution specific notes like role requirements}
+### Prerequisites and Costs
 
-To deploy this solution accelerator, ensure you have access to an [Azure subscription](https://azure.microsoft.com/free/) with the necessary permissions to create **resource groups, resources, app registrations, and assign roles at the resource group level**. This should include Contributor role at the subscription level and  Role Based Access Control role on the subscription and/or resource group level. Follow the steps in [Azure Account Set Up](./docs/AzureAccountSetUp.md).
+To deploy this solution accelerator, ensure you have access to the following
 
-Here are some example regions where the services are available: {🟨TODO: Update with suggested regions specific to this solution}
+- [Microsoft Power Platform license](https://learn.microsoft.com/en-us/power-platform/admin/pricing-billing-skus) with System Administrator, Omnichannel agent and Omnichannel admin access.
+- [Dynamics 365 Contact Center (Digital + Voice) license](https://www.microsoft.com/en-us/dynamics-365/products/contact-center)
+- [Dynamics 365 Customer Service Enterprise license](https://www.microsoft.com/en-us/dynamics-365/topics/customer-service/customer-service-software)
+- Ensure this appsource app is installed in the Power Platform environment Business Apps.
+- [Copilot Studio license](https://learn.microsoft.com/en-us/microsoft-copilot-studio/billing-licensing).
+- End users having [Dataverse access](https://www.microsoft.com/en-us/power-platform/dataverse).
+- [AI prompts](https://learn.microsoft.com/en-us/power-platform/release-plan/2025wave1/ai-builder/prompt-builder) (formerly called AI builder) credits
+- Azure portal access and ability to create [Key Vault](https://azure.microsoft.com/en-us/products/key-vault/) & [Azure Maps](https://azure.microsoft.com/en-us/products/azure-maps/) resources.
 
-Check the [Azure Products by Region](https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/?products=all&regions=all) page and select a **region** where the following services are available.
-
-{🟨TODO: Call out specific pricing "gotchas" like Azure Container Registry if known}
-
-Pricing varies per region and usage, so it isn't possible to predict exact costs for your usage. The majority of the Azure resources used in this infrastructure are on usage-based pricing tiers. However, Azure Container Registry has a fixed cost per registry per day.
-
-{🟨TODO: Update with solution specific estimate sheet}
-
-Use the [Azure pricing calculator](https://azure.microsoft.com/en-us/pricing/calculator) to calculate the cost of this solution in your subscription. 
-
-Review a [sample pricing sheet](https://azure.com/e/68b51f4cb79a4466b631a11aa57e9c16) in the event you want to customize and scale usage.
-
-_Note: This is not meant to outline all costs as selected SKUs, scaled use, customizations, and integrations into your own tenant can affect the total consumption of this sample solution. The sample pricing sheet is meant to give you a starting point to customize the estimate for your specific needs._
 
 <br/>
-
-{🟨TODO: Update with all products, decription of product use, and product specific pricing links}
 
 | Product | Description | Cost |
 |---|---|---|
-| [Product Name with Link to Learn content](https://learn.microsoft.com) | Decription of how the product is used | [Pricing]() |
-| [Product Name with Link to Learn content](https://learn.microsoft.com) | Decription of how the product is used | [Pricing]() |
-| [Product Name with Link to Learn content](https://learn.microsoft.com) | Decription of how the product is used | [Pricing]() |
-| [Product Name with Link to Learn content](https://learn.microsoft.com) | Decription of how the product is used | [Pricing]() |
+| [Microsoft Power platform](https://learn.microsoft.com/en-us/power-platform/) | Microsoft Power Platform is a suite of applications, connectors, and a data platform (Dataverse) that provides a rapid application development environment to build custom apps, automate workflows, and analyze data. | [Pricing](https://www.microsoft.com/en-us/power-platform/pricing/) |
+| [Microsoft Dynamics 365 contact center platform](https://www.microsoft.com/en-us/dynamics-365/products/contact-center) | his solution offers a comprehensive, AI-powered contact center platform that enables businesses to deliver personalized, omnichannel customer support. | [Pricing](https://www.microsoft.com/en-us/dynamics-365/products/contact-center/pricing) |
+| [Microsoft Dynamics 365 customer service](https://www.microsoft.com/en-us/dynamics-365/topics/customer-service/customer-service-software) | This solution focuses on providing exceptional customer service experiences through a unified platform. It includes features like case management, knowledge base, and AI-driven insights to help agents resolve issues quickly and effectively. | [Pricing](https://www.microsoft.com/en-us/dynamics-365/products/customer-service/pricing) |
+| [Microsoft copilot studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/) | Microsoft Copilot Studio is a graphical, low-code tool designed for building AI-driven agents and agent flows. | [Pricing](https://learn.microsoft.com/en-us/microsoft-copilot-studio/billing-licensing) |
+| [Azure key valut](https://learn.microsoft.com/en-us/azure/key-vault/keys/quick-create-portal) | Azure Key Vault is a cloud service that provides a secure store for secrets, such as API keys, passwords, certificates, and cryptographic keys. | [Pricing](https://azure.microsoft.com/en-us/pricing/details/key-vault/) |
+| [Azure maps](https://azure.microsoft.com/en-us/products/azure-maps/) | Azure Maps is a suite of geospatial mapping services that enable developers and organizations to build intelligent location-based experiences for web and mobile applications. | [Pricing](https://azure.microsoft.com/en-us/pricing/details/azure-maps/|
 
-
-<br/>
-
->⚠️ **Important:** To avoid unnecessary costs, remember to take down your app if it's no longer in use,
-either by deleting the resource group in the Portal or running `azd down`.
 
 <br /><br />
 <h2><img src="./Deployment/Images/business-scenario.png" width="48" />
@@ -171,32 +156,30 @@ Supporting documentation
 2. [Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/)
 3. [Dynamics 365 Contact Center ](https://learn.microsoft.com/en-us/dynamics365/contact-center/)
 
-### Security guidelines - do not have content
+### Security guidelines
 
-{🟨TODO: Fill in with solution specific security guidelines similar to the below}
+This template uses Azure Key Vault to store the credentials for Azure Maps. You can find more details in section 1.9 of [deployment guide](./Deployment/README.md).
 
-This template uses Azure Key Vault to store all connections to communicate between resources.
+You may want to ensure that you configure any Copilot Studio actions, and any Connections used in Power automate flows, to use the authentication that is appropriate for your organization and scenario.
 
-This template also uses [Managed Identity](https://learn.microsoft.com/entra/identity/managed-identities-azure-resources/overview) for local development and deployment.
+Depending on your desired security model, you may wish to select user authentication for actions rather than agent author authentication. For power automate flows, you may wish to configure connections to use the credentials of run-only users, or with a specific connection that you create.
 
-To ensure continued best practices in your own repository, we recommend that anyone creating solutions based on our templates ensure that the [Github secret scanning](https://docs.github.com/code-security/secret-scanning/about-secret-scanning) setting is enabled.
+Please note that this solution leverages a custom Dataverse table called 'Cell Data Usage' which stores sample data usage of customers. Creation of a security role to manage Case, Contact, and Cell Data Usage table access for end users is recommended based on organizational best practices and needs.
 
-You may want to consider additional security measures, such as:
+See these resources for more details on setting up authentication:
 
-* Enabling Microsoft Defender for Cloud to [secure your Azure resources](https://learn.microsoft.com/azure/security-center/defender-for-cloud).
-* Protecting the Azure Container Apps instance with a [firewall](https://learn.microsoft.com/azure/container-apps/waf-app-gateway) and/or [Virtual Network](https://learn.microsoft.com/azure/container-apps/networking?tabs=workload-profiles-env%2Cazure-cli).
+* [Configure user authentication for actions](https://learn.microsoft.com/en-us/microsoft-copilot-studio/configure-enduser-authentication)
+* [Manage owners and users in your flows with Power automate](https://learn.microsoft.com/en-us/sharepoint/dev/business-apps/power-automate/guidance/manage-list-flows)
 
-<br/>
-
-### Frequently asked questions - do not have content
+### Frequently asked questions
 
 {🟨TODO: Remove this section if you don't have FAQs}
 
-[Click here](./docs/FAQs.md) to learn more about common questions about this solution.
+[Click here](./FAQs.md) to learn more about common questions about this solution.
 
 <br/>
 
-### Cross references - do not have content
+### Cross references
 Check out similar solution accelerators
  
 {🟨TODO: Identify related accelerators - fill in the name and a one sentence description. The name should have non-breaking spaces in them to make sure the layout doesn't break.}

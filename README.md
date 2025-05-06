@@ -173,8 +173,6 @@ See these resources for more details on setting up authentication:
 
 ### Frequently asked questions
 
-{🟨TODO: Remove this section if you don't have FAQs}
-
 [Click here](./FAQs.md) to learn more about common questions about this solution.
 
 <br/>
@@ -186,10 +184,7 @@ Check out similar solution accelerators
 
 | Solution Accelerator | Description |
 |---|---|
-| [Document&nbsp;knowledge&nbsp;mining](https://github.com/microsoft/Document-Knowledge-Mining-Solution-Accelerator) | Provides REST API access to OpenAI's powerful language models including o3-mini, o1, o1-mini, GPT-4o, GPT-4o mini |
-| [Conversation&nbsp;knowledge&nbsp;mining](https://github.com/microsoft/Conversation-Knowledge-Mining-Solution-Accelerator) | Description of solution accelerator |
-| [Document&nbsp;generation](https://github.com/microsoft/document-generation-solution-accelerator) | Analyzes various media content—such as audio, video, text, and images—transforming it into structured, searchable data |
-
+| [Conversation knowledge mining](https://github.com/microsoft/Conversation-Knowledge-Mining-Solution-Accelerator) |This solution accelerator enables customers with large amounts of conversational data to improve decision-making by leveraging intelligence to uncover insights, relationships, and patterns from customer interactions. |
 
 <br/>   
 

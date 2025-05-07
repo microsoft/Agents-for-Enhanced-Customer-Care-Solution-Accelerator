@@ -91,26 +91,26 @@ Please click this [**Link to Deployment Guide**](Deployment/README.md) for instr
 
 To deploy this solution accelerator, ensure you have access to the following
 
-- [Microsoft Power Platform license](https://learn.microsoft.com/en-us/power-platform/admin/pricing-billing-skus) with System Administrator, Omnichannel agent and Omnichannel admin access.
+- [Microsoft Power Platform license](https://learn.microsoft.com/en-us/power-platform/admin/pricing-billing-skus) with System Administrator, Omnichannel agent and Omnichannel admin access
 - [Dynamics 365 Contact Center (Digital + Voice) license](https://www.microsoft.com/en-us/dynamics-365/products/contact-center)
 - [Dynamics 365 Customer Service Enterprise license](https://www.microsoft.com/en-us/dynamics-365/topics/customer-service/customer-service-software)
-- Ensure this appsource app is installed in the Power Platform environment Business Apps.
-- [Copilot Studio license](https://learn.microsoft.com/en-us/microsoft-copilot-studio/billing-licensing).
-- End users having [Dataverse access](https://www.microsoft.com/en-us/power-platform/dataverse).
+- Ensure this appsource app is installed in the Power Platform environment Business Apps
+- [Copilot Studio license](https://learn.microsoft.com/en-us/microsoft-copilot-studio/billing-licensing)
+- End users having [Dataverse access](https://www.microsoft.com/en-us/power-platform/dataverse)
 - [AI prompts](https://learn.microsoft.com/en-us/power-platform/release-plan/2025wave1/ai-builder/prompt-builder) (formerly called AI builder) credits
-- Azure portal access and ability to create [Key Vault](https://azure.microsoft.com/en-us/products/key-vault/) & [Azure Maps](https://azure.microsoft.com/en-us/products/azure-maps/) resources.
+- Azure portal access and ability to create [Key Vault](https://azure.microsoft.com/en-us/products/key-vault/) & [Azure Maps](https://azure.microsoft.com/en-us/products/azure-maps/) resources
 
 
 <br/>
 
 | Product | Description | Cost |
 |---|---|---|
-| [Microsoft Power platform](https://learn.microsoft.com/en-us/power-platform/) | Microsoft Power Platform is a suite of applications, connectors, and a data platform (Dataverse) that provides a rapid application development environment to build custom apps, automate workflows, and analyze data. | [Pricing](https://www.microsoft.com/en-us/power-platform/pricing/) |
-| [Microsoft Dynamics 365 contact center platform](https://www.microsoft.com/en-us/dynamics-365/products/contact-center) | his solution offers a comprehensive, AI-powered contact center platform that enables businesses to deliver personalized, omnichannel customer support. | [Pricing](https://www.microsoft.com/en-us/dynamics-365/products/contact-center/pricing) |
-| [Microsoft Dynamics 365 customer service](https://www.microsoft.com/en-us/dynamics-365/topics/customer-service/customer-service-software) | This solution focuses on providing exceptional customer service experiences through a unified platform. It includes features like case management, knowledge base, and AI-driven insights to help agents resolve issues quickly and effectively. | [Pricing](https://www.microsoft.com/en-us/dynamics-365/products/customer-service/pricing) |
-| [Microsoft copilot studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/) | Microsoft Copilot Studio is a graphical, low-code tool designed for building AI-driven agents and agent flows. | [Pricing](https://learn.microsoft.com/en-us/microsoft-copilot-studio/billing-licensing) |
-| [Azure key vault](https://learn.microsoft.com/en-us/azure/key-vault/keys/quick-create-portal) | Azure Key Vault is a cloud service that provides a secure store for secrets, such as API keys, passwords, certificates, and cryptographic keys. | [Pricing](https://azure.microsoft.com/en-us/pricing/details/key-vault/) |
-| [Azure maps](https://azure.microsoft.com/en-us/products/azure-maps/) | Azure Maps is a suite of geospatial mapping services that enable developers and organizations to build intelligent location-based experiences for web and mobile applications. | [Pricing](https://azure.microsoft.com/en-us/pricing/details/azure-maps/)|
+| [Microsoft Power Platform](https://learn.microsoft.com/en-us/power-platform/) | Microsoft Power Platform is a suite of applications, connectors, and a data platform (Dataverse) that provides a rapid application development environment to build custom apps, automate workflows, and analyze data. | [Pricing](https://www.microsoft.com/en-us/power-platform/pricing/) |
+| [Microsoft Dynamics 365 Contact Center Platform](https://www.microsoft.com/en-us/dynamics-365/products/contact-center) | his solution offers a comprehensive, AI-powered contact center platform that enables businesses to deliver personalized, omnichannel customer support. | [Pricing](https://www.microsoft.com/en-us/dynamics-365/products/contact-center/pricing) |
+| [Microsoft Dynamics 365 Customer Service](https://www.microsoft.com/en-us/dynamics-365/topics/customer-service/customer-service-software) | This solution focuses on providing exceptional customer service experiences through a unified platform. It includes features like case management, knowledge base, and AI-driven insights to help agents resolve issues quickly and effectively. | [Pricing](https://www.microsoft.com/en-us/dynamics-365/products/customer-service/pricing) |
+| [Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/) | Microsoft Copilot Studio is a graphical, low-code tool designed for building AI-driven agents and agent flows. | [Pricing](https://learn.microsoft.com/en-us/microsoft-copilot-studio/billing-licensing) |
+| [Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/keys/quick-create-portal) | Azure Key Vault is a cloud service that provides a secure store for secrets, such as API keys, passwords, certificates, and cryptographic keys. | [Pricing](https://azure.microsoft.com/en-us/pricing/details/key-vault/) |
+| [Azure Maps](https://azure.microsoft.com/en-us/products/azure-maps/) | Azure Maps is a suite of geospatial mapping services that enable developers and organizations to build intelligent location-based experiences for web and mobile applications. | [Pricing](https://azure.microsoft.com/en-us/pricing/details/azure-maps/)|
 
 
 <br /><br />
